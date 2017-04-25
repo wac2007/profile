@@ -1,0 +1,30 @@
+{
+  "name": "wac2007-profile",
+  "version": "1.0.0",
+  "description": "My Personal and Professional Profile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wac2007/profile.git"
+  },
+  "keywords": [
+    "profile",
+    "wac2007",
+    "programmer",
+    "programador",
+    "perfil",
+    "developer",
+    "javascript",
+    "fullstack",
+    "desenvolvedor"
+  ],
+  "author": "wac2007",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wac2007/profile/issues"
+  },
+  "homepage": "https://wac2007.github.io/profile"
+}
