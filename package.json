@@ -34,6 +34,7 @@
     "@babel/preset-env": "^7.0.0-beta.46",
     "babel-loader": "^8.0.0-beta.2",
     "babel-preset-env": "^1.6.1",
+    "bootstrap": "^3.3.7",
     "copy-webpack-plugin": "^4.5.1",
     "css-loader": "^0.28.11",
     "file-loader": "^1.1.11",
@@ -61,7 +62,6 @@
     "webpack-dev-server": "^3.1.4"
   },
   "dependencies": {
-    "bootstrap": "^4.1.1",
     "font-awesome": "^4.7.0",
     "jquery": "^3.3.1"
   }
