@@ -1,6 +1,6 @@
 {
   "name": "wac2007-profile",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "My Personal and Professional Profile",
   "main": "index.js",
   "scripts": {
