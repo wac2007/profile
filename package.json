@@ -4,7 +4,9 @@
   "description": "My Personal and Professional Profile",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/webpack-dev-server --mode development",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -28,19 +30,34 @@
   },
   "homepage": "https://wac2007.github.io/profile",
   "devDependencies": {
+    "@babel/core": "^7.0.0-beta.46",
+    "@babel/preset-env": "^7.0.0-beta.46",
+    "babel-loader": "^8.0.0-beta.2",
+    "babel-preset-env": "^1.6.1",
     "gulp": "^3.9.1",
-    "gulp-cssmin": "^0.2.0",
-    "gulp-livereload": "^3.8.1",
     "gulp-autoprefixer": "^2.1.0",
     "gulp-concat": "^2.4.3",
+    "gulp-cssmin": "^0.2.0",
     "gulp-jshint": "^1.9.2",
     "gulp-less": "^3.0.1",
+    "gulp-live-server": "^0.0.29",
+    "gulp-livereload": "^3.8.1",
     "gulp-load-plugins": "^0.8.0",
     "gulp-plumber": "^0.6.6",
     "gulp-rename": "^1.2.0",
     "gulp-uglify": "^1.1.0",
     "gulp-util": "^3.0.3",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
     "jshint-stylish": "^1.0.0",
-    "gulp-live-server": "^0.0.29"
+    "less-loader": "^4.1.0",
+    "webpack": "^4.7.0",
+    "webpack-cli": "^2.1.2",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1"
   }
 }
