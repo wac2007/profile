@@ -1,6 +1,8 @@
-import { jQuery } from 'jquery';
+import jQuery from 'jquery';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
+import './assets/less/styles.less';
 
 jQuery(document).ready(function($) {
   /*======= Skillset *=======*/
