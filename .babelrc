@@ -1,14 +1,6 @@
 {
   "presets": [
-    [
-      "@babel/preset-env",
-      {
-        "targets": {
-          "chrome": 52,
-          "browsers": ["last 2 versions", "ie 11"]
-        }
-      }
-    ],
-    "@babel/react"
+    "env",
+    "react"
   ]
 }
