@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
 import './assets/less/styles.less';
 
-import Home from './app/home';
+import Home from './app/home/home';
 
 // Legacy Code
 // jQuery(document).ready(($) => {

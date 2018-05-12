@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Title from '../title/title';
+
 export default () => (
   <div>
     <div id="body" className="wrapper">
@@ -96,9 +98,7 @@ export default () => (
       {/* //sidebar-wrapper */}
       <main className="main-wrapper">
         <section className="section summary-section">
-          <h2 className="section-title">
-            <i className="fa fa-user" />Perfil de Carreira
-          </h2>
+          <Title title="Perfil de Carreira" icon="user" />
           <div className="summary">
             <p>
               Como desenvolvedor <b>Full Stack</b> e <b>Empreendedor</b>, tenho uma grande paixão
@@ -116,9 +116,7 @@ export default () => (
         </section>
         {/* //section */}
         <section className="section experiences-section">
-          <h2 className="section-title">
-            <i className="fa fa-briefcase" />Experiências
-          </h2>
+          <Title title="Experiências" icon="user" />
           <article className="item">
             <div className="meta">
               <div className="upper-row">
@@ -302,9 +300,7 @@ export default () => (
         </section>
         {/* //section */}
         <section className="section projects-section">
-          <h2 className="section-title">
-            <i className="fa fa-archive" />Projetos
-          </h2>
+          <Title title="Projetos" icon="archive" />
           <div className="intro">
             <p>Projetos nos quais trabalhei fora das empresas especificadas.</p>
           </div>
@@ -372,9 +368,7 @@ export default () => (
         </section>
         {/* //section */}
         <section className="skills-section section">
-          <h2 className="section-title">
-            <i className="fa fa-rocket" />Competências Técnicas
-          </h2>
+          <Title title="Competências Técnicas" icon="rocket" />
           <div className="skillset">
             <h4>Front End</h4>
             <div className="item">

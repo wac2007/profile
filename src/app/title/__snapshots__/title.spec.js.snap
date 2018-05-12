@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Title Component Should match title snapshot 1`] = `
+<h2
+  className="section-title"
+>
+  <i
+    className="fa fa-profile"
+  />
+  Hello World
+</h2>
+`;
