@@ -1,4 +1,5 @@
 const path = require('path');
+const webpack = require('webpack');
 
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 
@@ -66,10 +67,13 @@ module.exports = (_, argv) => ({
       filename: '[name].css',
       chunkFilename: '[id].css',
     }),
+    new webpack.NamedModulesPlugin(),
+    new webpack.HotModuleReplacementPlugin(),
   ],
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
     compress: true,
     port: 8000,
+    hot: true,
   },
 });
